@@ -8,7 +8,7 @@ class Config(object):
     LOGGER = True
     # Get this value from my.telegram.org! Please do not steal
     APP_ID = int(os.environ.get("APP_ID", 1298019))
-    API_HASH = os.environ.get("API_HASH", "1072818796:AAFnlIZeGBh-UqD262cGNej5lg_Kq_iq")
+    API_HASH = os.environ.get("API_HASH", "9da44a22456cc035317a4ec7174be508")
     # string session for running on Heroku
     # some people upload their session files on GitHub or other third party hosting
     # websites, this might prevent the un-authorized use of the
